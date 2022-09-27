@@ -38,7 +38,7 @@ if (carritoStorage) {
   carrito = JSON.parse(carritoStorage);
 } */
 
-let carrito = JSON.parse(carritoStorage) || []; // OPTIMIZANDO EL CODIGO
+let carrito = JSON.parse(carritoStorage) || []; // OPTIMIZANDO EL CODIGO. Las lineas 34 a 39 se expresan en la linea 41.
 
 
 let carritoSubtotal = 0;
